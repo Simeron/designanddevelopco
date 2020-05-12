@@ -27,7 +27,7 @@ const Header = ({ siteTitle }) => (
           {siteTitle}
         </Link>
       </h1> */}
-      <nav className="menuItems" style={{ display: `flex`, direction: `rtl`, borderBottom: `solid #333333 3px`, fontFamily: `Cutive Mono, monospace`}}>
+      <nav className="menuItems" style={{ display: `flex`, direction: `rtl`, borderBottom: `solid #333333 3px`, fontFamily: `Cutive Mono, monospace` }}>
         <p style={{ paddingRight: `10px` }}>| Contact |</p>
         <p style={{ paddingRight: `10px` }}>About |</p>
         <p style={{ paddingRight: `10px` }}>Services |</p>

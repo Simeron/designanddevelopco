@@ -17,7 +17,7 @@ const Services = () => (
                 <h3 style={{ borderBottom: `2px solid black`, fontFamily: `Cutive Mono, monospace`, paddingBottom: `20px` }}>What services we offer</h3>
                 <p>I help FEMALE ENTREPRENEURS transform their web presence, through creating bespoke user experiences and websites transform their web presence, through creating bespoke user experiences and websites</p>
                 {/* <AnchorLink to="../../AboutContact" title="Our team"> */}
-                    <button style={{ backgroundColor: `#f4e1e5`, borderRadius: ` 5px`, fontFamily: `Cutive Mono, monospace` }}>Contact</button>
+                <button style={{ backgroundColor: `#f4e1e5`, borderRadius: ` 5px`, fontFamily: `Cutive Mono, monospace` }}>Contact</button>
                 {/* </AnchorLink> */}
             </div>
             <div style={{ display: `flex` }}>
