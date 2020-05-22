@@ -24,13 +24,23 @@ import { useStaticQuery, graphql } from "gatsby"
 // }
 // }
 // }`)
+// @media screen and (max-width: 700px) {
+//     .introText {
+//       width: 100%;
+//     }
+//     .mainContent {
+//         display: block;
+//     }
+//   }
 
 const AboutContact = () => (
     <div>
         {/* {data.allFile.edges.map(({node}) => (
             <Img fluid={node.childImageSharp} />
         ))} */}
-        <h2 style={{ backgroundColor: `#f4e1e5`, height: `70px`, textAlign: `center`, padding: `25px`, width: `100%`, fontFamily: `Cutive Mono, monospace` }}>About & Contact</h2>
+        <a id="aboutContact">
+            <h2 style={{ backgroundColor: `#f4e1e5`, height: `70px`, textAlign: `center`, padding: `25px`, width: `100%`, fontFamily: `Cutive Mono, monospace` }}>About & Contact</h2>
+        </a>
         <div style={{
             margin: `0 auto`,
             maxWidth: 960,
@@ -40,7 +50,9 @@ const AboutContact = () => (
             <div style={{ width: `60%` }}>
                 <h3 style={{ borderBottom: `2px solid black`, fontFamily: `Cutive Mono, monospace`, paddingBottom: `20px` }}>All about Design & Develop.Co</h3>
                 <p>I help FEMALE ENTREPRENEURS transform their web presence, through creating bespoke user experiences and websites transform their web presence, through creating bespoke user experiences and websitespresence, through creating bespoke user experiences and websites transform their web presence, through creating bespoke user experiences and websites</p>
-                <button style={{ backgroundColor: `#f4e1e5`, borderRadius: ` 5px`, fontFamily: `Cutive Mono, monospace` }}>Send us an email</button>
+                <a href="mailto:simeron03@icloud.com?subject=Customer enquiry" target="_blank">
+                    <button style={{ backgroundColor: `#f4e1e5`, borderRadius: ` 5px`, fontFamily: `Cutive Mono, monospace` }}>Send us an email</button>
+                </a>
             </div>
             <div style={{ display: `flex`, borderBottom: `2px solid black` }}>
                 <div>
@@ -83,11 +95,15 @@ const AboutContact = () => (
                             <p style={{ paddingLeft: `15px` }}>| @designanddevelopco</p>
                         </div>
                     </div>
-                    <button style={{ backgroundColor: `#f4e1e5`, borderRadius: ` 5px`, display: `block`, marginBottom: `20px`, fontFamily: `Cutive Mono, monospace` }}>Book your consultation</button>
-                    <button style={{ backgroundColor: `#e1e9ed`, borderRadius: ` 5px`, display: `block`, fontFamily: `Cutive Mono, monospace` }}>Services</button>
-                    {/* <AnchorLink to="/src/pages/index.js"> */}
-                    <button style={{ width: `50px`, backgroundColor: `#e1e9ed`, borderRadius: `50%`, height: `50px`, fontSize: `30px`, marginTop: `25px`, marginBottom: `25px`, fontFamily: `Cutive Mono, monospace`, paddingTop: `10px` }}>&uarr;</button>
-                    {/* </AnchorLink> */}
+                    <a href="mailto:simeron03@icloud.com?subject=Customer enquiry" target="_blank">
+                        <button style={{ backgroundColor: `#f4e1e5`, borderRadius: ` 5px`, display: `block`, marginBottom: `20px`, fontFamily: `Cutive Mono, monospace` }}>Book your consultation</button>
+                    </a>
+                    <a href="#services" style={{ textDecoration: 'none' }}>
+                        <button style={{ backgroundColor: `#e1e9ed`, borderRadius: ` 5px`, display: `block`, fontFamily: `Cutive Mono, monospace` }}>Services</button>
+                    </a>
+                    <a href="#index" style={{ textDecoration: 'none' }}>
+                        <button style={{ width: `50px`, backgroundColor: `#e1e9ed`, borderRadius: `50%`, height: `50px`, fontSize: `30px`, marginTop: `25px`, marginBottom: `25px`, fontFamily: `Cutive Mono, monospace`, paddingTop: `10px` }}>&uarr;</button>
+                    </a>
                 </div>
             </div>
         </div>

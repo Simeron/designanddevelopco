@@ -28,9 +28,15 @@ const Header = ({ siteTitle }) => (
         </Link>
       </h1> */}
       <nav className="menuItems" style={{ display: `flex`, direction: `rtl`, borderBottom: `solid #333333 3px`, fontFamily: `Cutive Mono, monospace` }}>
-        <p style={{ paddingRight: `10px` }}>| Contact |</p>
-        <p style={{ paddingRight: `10px` }}>About |</p>
-        <p style={{ paddingRight: `10px` }}>Services |</p>
+        <a href="#aboutContact" style={{ textDecoration: 'none' }}>
+          <p style={{ paddingRight: `10px` }}>| Contact |</p>
+        </a>
+        <a href="#aboutContact" style={{ textDecoration: 'none' }}>
+          <p style={{ paddingRight: `10px` }}>About |</p>
+        </a>
+        <a href="#services" style={{ textDecoration: 'none' }}>
+          <p style={{ paddingRight: `10px` }}>Services |</p>
+        </a>
       </nav>
     </div>
   </header>

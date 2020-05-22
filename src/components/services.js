@@ -1,12 +1,15 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
+import './services';
 import Image from "./image"
 // import { AnchorLink } from "gatsby-plugin-anchor-links";
 
 const Services = () => (
     <div>
-        <h2 style={{ backgroundColor: `#f4e1e5`, height: `70px`, textAlign: `center`, padding: `25px`, width: `100%`, fontFamily: `Cutive Mono, monospace` }}>Services</h2>
+        <a id="services">
+            <h2 style={{ backgroundColor: `#f4e1e5`, height: `70px`, textAlign: `center`, padding: `25px`, width: `100%`, fontFamily: `Cutive Mono, monospace` }}>Services</h2>
+        </a>
         <div style={{
             margin: `0 auto`,
             maxWidth: 960,
@@ -16,9 +19,9 @@ const Services = () => (
             <div style={{ width: `40%` }}>
                 <h3 style={{ borderBottom: `2px solid black`, fontFamily: `Cutive Mono, monospace`, paddingBottom: `20px` }}>What services we offer</h3>
                 <p>I help FEMALE ENTREPRENEURS transform their web presence, through creating bespoke user experiences and websites transform their web presence, through creating bespoke user experiences and websites</p>
-                {/* <AnchorLink to="../../AboutContact" title="Our team"> */}
-                <button style={{ backgroundColor: `#f4e1e5`, borderRadius: ` 5px`, fontFamily: `Cutive Mono, monospace` }}>Contact</button>
-                {/* </AnchorLink> */}
+                <a href="#aboutContact" style={{ textDecoration: 'none' }}>
+                    <button style={{ backgroundColor: `#f4e1e5`, borderRadius: ` 5px`, fontFamily: `Cutive Mono, monospace` }}>Contact</button>
+                </a>
             </div>
             <div style={{ display: `flex` }}>
                 <div>
