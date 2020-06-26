@@ -3,9 +3,8 @@ import PropTypes from "prop-types"
 import React from "react"
 import './services'
 import './style.css'
-import SetupImg from "../images/SetupImg.jpg"
-import Handnotepad from "../images/Handnotepad.jpg"
-import Desk from "../images/Desk.jpg";
+import setupImg from "../images/setupImg.jpg"
+import handnotepad from "../images/handnotepad.jpg"
 
 const Services = () => (
     <div>
@@ -35,9 +34,9 @@ const Services = () => (
                     <div class="serviceImages">
                         {/* <img src="https://i.pinimg.com/564x/1b/d1/76/1bd17689f483069a9694653e46af30ff.jpg"></img> */}
                         {/* <img src="https://i.pinimg.com/564x/b6/14/de/b614dedeb396922f9e389d151db4d8b7.jpg"></img> */}
-                        <img src={Handnotepad} alt="useful alt tag" />
+                        <img src={handnotepad} alt="useful alt tag" />
                         {/* <img src={Desk} alt="useful alt tag" /> */}
-                        <img src={SetupImg} alt="useful alt tag" />
+                        <img src={setupImg} alt="useful alt tag" />
                         {/* <img src={SetupImg} alt="a working image" /> */}
                     </div>
                 </div>
