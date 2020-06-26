@@ -11,6 +11,7 @@ import { useStaticQuery, graphql } from "gatsby"
 
 import Header from "./header"
 import "./layout.css"
+import "./style.css"
 import Services from "./services"
 import AboutContact from "./aboutContact"
 

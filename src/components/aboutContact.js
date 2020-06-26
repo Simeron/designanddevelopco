@@ -1,108 +1,82 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
-import ContactImage from "./image"
+import './style.css'
+import DesignanddevelopBuildSomething from "../images/DesignanddevelopBuildSomething.png";
 
-import Img from "gatsby-image";
-import { useStaticQuery, graphql } from "gatsby"
-
-// const data = useStaticQuery(graphql`
-// {
-// allSpeakingYaml {
-// edges {
-//   node {
-//     conference
-//     year
-//     image {
-//       childImageSharp {
-//         fluid {
-//           ...GatsbyImageSharpFluid
-//         }
-//       }
-//     }
-//   }
-// }
-// }
-// }`)
-// @media screen and (max-width: 700px) {
-//     .introText {
-//       width: 100%;
-//     }
-//     .mainContent {
-//         display: block;
-//     }
-//   }
 
 const AboutContact = () => (
     <div>
-        {/* {data.allFile.edges.map(({node}) => (
-            <Img fluid={node.childImageSharp} />
-        ))} */}
         <a id="aboutContact">
-            <h2 style={{ backgroundColor: `#f4e1e5`, height: `70px`, textAlign: `center`, padding: `25px`, width: `100%`, fontFamily: `Cutive Mono, monospace` }}>About & Contact</h2>
+            <h2>About & Contact</h2>
         </a>
-        <div style={{
-            margin: `0 auto`,
-            maxWidth: 960,
-            padding: `0 1.0875rem 1.45rem`,
-        }}>
-            <hr style={{ marginTop: `-27px`, backgroundColor: `black`, height: `2px` }} />
-            <div style={{ width: `60%` }}>
-                <h3 style={{ borderBottom: `2px solid black`, fontFamily: `Cutive Mono, monospace`, paddingBottom: `20px` }}>All about Design & Develop.Co</h3>
-                <p>I help FEMALE ENTREPRENEURS transform their web presence, through creating bespoke user experiences and websites transform their web presence, through creating bespoke user experiences and websitespresence, through creating bespoke user experiences and websites transform their web presence, through creating bespoke user experiences and websites</p>
-                <a href="mailto:simeron03@icloud.com?subject=Customer enquiry" target="_blank">
-                    <button style={{ backgroundColor: `#f4e1e5`, borderRadius: ` 5px`, fontFamily: `Cutive Mono, monospace` }}>Send us an email</button>
+        <div class="content">
+            <hr />
+            <div className="aboutIntro">
+                <h3>All about Design & Develop.Co</h3>
+                <h4>Hi there 👋🏽<br />
+                Welcome to Design & Develop.Co </h4>
+                <p>We are brand and online specialists. We transform businesses to help brands relate to their target audiences.</p>
+                <p>A bit more about me… <br />
+                My name is Simeron & I’m a frontend developer with a background in graphic & web design. I spent years trying to find the right role for me. While I have worked in some amazing places, I’ve always had to compromise on parts of my role. I’ve always loved design and fell in love with Development & bringing my designs to life. I have a passion for empowering females and have always wanted to run my own business. This year I decided it was time to design the perfect ‘role’ for me, and combine all the things I love to help other budding entrepreneurs achieve their dreams too, thats why I started Design & Develop.Co. </p>
+                <p>Feel free to get in contact via email and reach out to me on the socials.</p>
+                <p>Check out what I’m currently working on via Instagram</p>
+                <p>If twitter is more your thing read about what were up to</p>
+                <p>If you want to see how I work… literally be sure to check out our tik tok account too!</p>
+                <a href="mailto:simerondevelops@gmail.com?subject=Customer enquiry" target="_blank">
+                    <button>Send us an email</button>
                 </a>
             </div>
-            <div style={{ display: `flex`, borderBottom: `2px solid black` }}>
-                <div>
-                    <div style={{ width: `400px`, marginBottom: `1.45rem`, padding: `25px` }}>
-                        {/* <Image /> */}
-                        {/* <img src="../images/setupImg.jpg" style={{width: `200px`}}></img> */}
-                        <img src="https://i.pinimg.com/564x/1d/43/d2/1d43d21964da805557d7c94f1bc43746.jpg"></img>
-                    </div>
+            <div className="aboutImages">
+                <div class="images">
+                    <img src="https://i.pinimg.com/564x/1d/43/d2/1d43d21964da805557d7c94f1bc43746.jpg"></img>
+                    <img src={DesignanddevelopBuildSomething} alt="useful alt tag" />
                 </div>
-                <div style={{ marginLeft: `100px` }}>
-                    <div style={{ display: `flex` }}>
+                <div class="contactInfo">
+                    <div class="contactItems">
+                        <img src="https://image.flaticon.com/icons/svg/15/15914.svg" />
                         <div>
-                            <img src="https://image.flaticon.com/icons/svg/15/15914.svg" style={{ width: `35px` }} />
-                        </div>
-                        <div>
-                            <p style={{ paddingLeft: `15px` }}>| 07501351982</p>
+                            <p class="contactDetials">| 07501351982</p>
                         </div>
                     </div>
-                    <div style={{ display: `flex` }}>
+                    <div class="contactItems">
                         <div>
-                            <img src="https://image.flaticon.com/icons/svg/561/561188.svg" style={{ width: `35px` }} />
+                            <img src="https://image.flaticon.com/icons/svg/561/561188.svg" />
                         </div>
                         <div>
-                            <p style={{ paddingLeft: `15px` }}>| simeron03@icloud.com</p>
-                        </div>
-                    </div>
-                    <div style={{ display: `flex` }}>
-                        <div>
-                            <img src="https://www.iconsdb.com/icons/preview/black/instagram-xxl.png" style={{ width: `35px` }} />
-                        </div>
-                        <div>
-                            <p style={{ paddingLeft: `15px` }}>| @designanddevelopco</p>
+                            <a href="mailto:simerondevelopc@gmail.com?subject=Customer enquiry" target="_blank">
+                                <p class="contactDetials">| simerondevelops@gmail.com</p>
+                            </a>
                         </div>
                     </div>
-                    <div style={{ display: `flex` }}>
+                    <div class="contactItems">
                         <div>
-                            <img src="https://image.flaticon.com/icons/svg/60/60580.svg" style={{ width: `35px` }} />
+                            <img src="https://i.pinimg.com/originals/63/9b/3d/639b3dafb544d6f061fcddd2d6686ddb.png" />
                         </div>
                         <div>
-                            <p style={{ paddingLeft: `15px` }}>| @designanddevelopco</p>
+                            <a href="https://www.instagram.com/designanddevelopco/" target="_blank">
+                                <p class="contactDetials">| @designanddevelopco</p>
+                            </a>
                         </div>
                     </div>
-                    <a href="mailto:simeron03@icloud.com?subject=Customer enquiry" target="_blank">
-                        <button style={{ backgroundColor: `#f4e1e5`, borderRadius: ` 5px`, display: `block`, marginBottom: `20px`, fontFamily: `Cutive Mono, monospace` }}>Book your consultation</button>
+                    <div class="contactItems">
+                        <div>
+                            <img src="https://image.flaticon.com/icons/svg/60/60580.svg" />
+                        </div>
+                        <div>
+                            <a href="https://twitter.com/designanddevel2" target="_blank">
+                                <p class="contactDetials">| @designanddevelopco</p>
+                            </a>
+                        </div>
+                    </div>
+                    <a href="mailto:simerondevelops@gmail.com?subject=Customer enquiry" target="_blank">
+                        <button class="bookConsult">Book your <strong>FREE</strong> consultation</button>
                     </a>
-                    <a href="#services" style={{ textDecoration: 'none' }}>
-                        <button style={{ backgroundColor: `#e1e9ed`, borderRadius: ` 5px`, display: `block`, fontFamily: `Cutive Mono, monospace` }}>Services</button>
+                    <a class="servicesLink" href="#services">
+                        <button class="servicesButton">Services</button>
                     </a>
-                    <a href="#index" style={{ textDecoration: 'none' }}>
-                        <button style={{ width: `50px`, backgroundColor: `#e1e9ed`, borderRadius: `50%`, height: `50px`, fontSize: `30px`, marginTop: `25px`, marginBottom: `25px`, fontFamily: `Cutive Mono, monospace`, paddingTop: `10px` }}>&uarr;</button>
+                    <a href="#index">
+                        <button class="backToTop">&uarr;</button>
                     </a>
                 </div>
             </div>
