@@ -4,7 +4,7 @@ import React from "react"
 import './services'
 import './style.css'
 import setupImg from "../images/setupImg.jpg"
-import handnotepad from "../images/handnotepad.jpg"
+import handonnotepad from "../images/handonnotepad.jpg"
 
 const Services = () => (
     <div>
@@ -34,7 +34,7 @@ const Services = () => (
                     <div class="serviceImages">
                         {/* <img src="https://i.pinimg.com/564x/1b/d1/76/1bd17689f483069a9694653e46af30ff.jpg"></img> */}
                         {/* <img src="https://i.pinimg.com/564x/b6/14/de/b614dedeb396922f9e389d151db4d8b7.jpg"></img> */}
-                        <img src={handnotepad} alt="useful alt tag" />
+                        <img src={handonnotepad} alt="useful alt tag" />
                         {/* <img src={Desk} alt="useful alt tag" /> */}
                         <img src={setupImg} alt="useful alt tag" />
                         {/* <img src={SetupImg} alt="a working image" /> */}
