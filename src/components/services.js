@@ -52,7 +52,7 @@ const Services = () => (
                     </div>
                     <div class="stage">
                         <h3 class="stageName">DESIGN PHASE</h3>
-                        <p>Wireframing done! We’ll put everything together and I will create the mockup of what your site will look like. This will be with the wireframes and the branding such as the colour scheme and dummy or real content added, to give you an idea of what the finished product will look like. </p>
+                        <p>Wireframing done! We’ll put everything together and I will create the mockup of what your site will look like. This will be with the wireframes and the branding such as the colour scheme and dummy or real content added, to give you an idea of what the finished product will look like.</p>
                     </div>
                     <div class="stage">
                         <h3 class="stageName">DEVELOPMENT PHASE</h3>
