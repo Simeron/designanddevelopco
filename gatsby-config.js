@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Design & Develop .Co`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    description: `Transform your brand and web presence with Design & Develop.Co. We create bespoke solutions to suit our customers needs. We specialise in graphic design and building brands, and building websites designed around the needs of your users. `,
     author: `Design & Develop.Co`,
   },
   plugins: [
