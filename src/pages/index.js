@@ -18,7 +18,7 @@ const IndexPage = () => (
           <p>I help female entrepreneurs transform there web presence, through creating bespoke user experiences and websites 🎨✍🏽👩🏽‍💻 Now lets go build something great.
       </p>
           <a href="mailto:simerondevelops@gmail.com?subject=Customer enquiry" target="_blank">
-            <button>Book your <strong>FREE</strong> consultation</button>
+            <button class="bookConsult">Book your <strong>FREE</strong> consultation</button>
           </a>
         </div>
         <div class="headerImage">

@@ -62,7 +62,7 @@ const Services = () => (
                         <p>Now your site has been created! Everything will be ready for you and now the only thing left to do is for me to hand everything over to you and show you anything that you have left to do and the rest is all yours! At this point we have options if you’d like future training on how to use your brand, and website, or we also offer maintenance packages to suit each client where I can maintain your site for you.</p>
                     </div>
                     <a href="mailto:simerondevelops@gmail.com?subject=Customer enquiry" target="_blank">
-                        <button>Book a consultation</button>
+                        <button class="bookConsult">Book your <strong>FREE</strong> consultation</button>
                     </a>
                 </div>
             </div>
