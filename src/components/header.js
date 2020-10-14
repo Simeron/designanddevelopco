@@ -1,19 +1,22 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
+import Image from "../components/image"
+// import './style.css'
 
 const Header = ({ siteTitle }) => (
   <header
     style={{
       // background: `#b76e79`,
-      marginBottom: `1.45rem`,
+      // marginBottom: `1.45rem`,
     }}
   >
     <div
       style={{
         margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
+        // maxWidth: 960,
+        // padding: `1.45rem 1.0875rem`,
+        paddingTop: `1.45rem`,
       }}
     >
       {/* <h1 style={{ margin: 0 }}>
@@ -27,9 +30,10 @@ const Header = ({ siteTitle }) => (
           {siteTitle}
         </Link>
       </h1> */}
-      <nav className="menuItems" style={{ display: `flex`, direction: `rtl`, borderBottom: `solid #333333 3px`, fontFamily: `Cutive Mono, monospace` }}>
+      <nav className="navItems" style={{ display: `flex`, direction: `rtl`, borderBottom: `solid #333333 3px`, fontFamily: `Cutive Mono, monospace` }}>
+        <div className='menuItems' style={{textAlign: `left`, width: `50%`, display: `flex`}}>
         <a href="#aboutContact" style={{ textDecoration: 'none' }}>
-          <p style={{ paddingRight: `10px` }}>| Contact |</p>
+          <p style={{ paddingRight: `50px` }}>| Contact |</p>
         </a>
         <a href="#aboutContact" style={{ textDecoration: 'none' }}>
           <p style={{ paddingRight: `10px` }}>About |</p>
@@ -37,6 +41,9 @@ const Header = ({ siteTitle }) => (
         <a href="#services" style={{ textDecoration: 'none' }}>
           <p style={{ paddingRight: `10px` }}>Services |</p>
         </a>
+        </div>
+        <div className='space' style={{textAlign: `right`, width: `50%`}}></div>
+        <a className='logo' style={{width: `300px`, textAlign: `left`, paddingLeft: `50px`}}><Image /></a>
       </nav>
     </div>
   </header>

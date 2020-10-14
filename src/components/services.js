@@ -7,7 +7,7 @@ import setupImg from "../images/setupImg.jpg"
 import handonnotepad from "../images/handonnotepad.jpg"
 
 const Services = () => (
-    <div>
+    <div id="servicesPage">
         <a id="services">
             <h2>Services</h2>
         </a>

@@ -2,8 +2,9 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 import './style.css'
-import designanddevelopBuildSomething from "../images/designanddevelopBuildSomething.png"
+// import designanddevelopBuildSomething from "../images/designanddevelopBuildSomething.png"
 import phoneplant from "../images/phoneplant.jpg"
+import headerimageOptmised from "../images/headerimageOptmised.jpg"
 
 
 const AboutContact = () => (
@@ -31,8 +32,9 @@ const AboutContact = () => (
             <div className="aboutImages">
                 <div class="images">
                     {/* <img src="https://i.pinimg.com/564x/1d/43/d2/1d43d21964da805557d7c94f1bc43746.jpg"></img> */}
+                    <img src={headerimageOptmised} alt="useful alt tag" />
                     <img src={phoneplant} alt="picture of a phone and a plant" />
-                    <img src={designanddevelopBuildSomething} alt="useful alt tag" />
+                    {/* <img src={designanddevelopBuildSomething} alt="useful alt tag" /> */}
                 </div>
                 <div class="contactInfo">
                     <div class="contactItems">
