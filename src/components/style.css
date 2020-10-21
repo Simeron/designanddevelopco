@@ -45,7 +45,9 @@ a {
 
 .headerContent p {
     padding-right: 25px; 
-    font-family: Cutive Mono, monospace;
+    font-family: 'proxima Nova';
+    letter-spacing: 1px;
+    line-height: 1.8;
 }
 
 .HeaderCta {
@@ -179,6 +181,10 @@ h2 {
 
 h2 {
     background-color: #f2e4e8;
+    font-family: 'pacifico';
+    letter-spacing: 2px;
+    font-size: 2.5rem;
+    margin-bottom: 51px;
 }
 
 h4 {
@@ -194,6 +200,10 @@ h3, h4{
     border-bottom: 2px solid black; 
     font-family: Cutive Mono, monospace; 
     padding-bottom: 20px;
+}
+
+#aboutContact h2{
+    background-color: #ffffff;
 }
 
 .aboutLink {

@@ -30,16 +30,16 @@ const Header = ({ siteTitle }) => (
           {siteTitle}
         </Link>
       </h1> */}
-      <nav className="navItems" style={{ display: `flex`, direction: `rtl`, borderBottom: `solid #333333 3px`, fontFamily: `Cutive Mono, monospace` }}>
+      <nav className="navItems" style={{ display: `flex`, direction: `rtl`, borderBottom: `solid #333333 3px`, fontFamily: `proxima Nova`, letterSpacing: `1px` }}>
         <div className='menuItems' style={{textAlign: `left`, width: `50%`, display: `flex`}}>
         <a href="#aboutContact" style={{ textDecoration: 'none' }}>
-          <p style={{ paddingRight: `50px` }}>| Contact |</p>
+          <p style={{ paddingRight: `50px` }}> Contact </p>
         </a>
         <a href="#aboutContact" style={{ textDecoration: 'none' }}>
-          <p style={{ paddingRight: `10px` }}>About |</p>
+          <p style={{ paddingRight: `20px` }}>About </p>
         </a>
         <a href="#services" style={{ textDecoration: 'none' }}>
-          <p style={{ paddingRight: `10px` }}>Services |</p>
+          <p style={{ paddingRight: `20px` }}>Services</p>
         </a>
         </div>
         <div className='space' style={{textAlign: `right`, width: `50%`}}></div>

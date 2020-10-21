@@ -9,7 +9,7 @@ import handonnotepad from "../images/handonnotepad.jpg"
 const Services = () => (
     <div id="servicesPage">
         <a id="services">
-            <h2>Services</h2>
+            <h2>Our services</h2>
         </a>
         <div class="content">
             <hr />
